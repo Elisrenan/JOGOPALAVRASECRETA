@@ -8,6 +8,8 @@ palavras_certas = list()
 score = 0
 tentativas = 1
 
+#rodando o jogo
+
 while True:
   palpite = str(input("INFORME SEU PALPITE: ")).upper()
   acertou = bool(palpite in palavras_secretas)

@@ -221,6 +221,14 @@ python-versions = ">=3.6"
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
 [[package]]
+name = "pandas2"
+version = "0.0.0"
+description = "pandas2"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "parso"
 version = "0.8.3"
 description = "A Python Parser"
@@ -478,7 +486,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "f328c469a46d9cb95c79b10c69318f07ccca3f40cc6eb43ef51c87ad2ff1879b"
+content-hash = "ffdc05c98a99090494fce0d28650c5e9c9d40a57557a8d7779a13631d82ae515"
 
 [metadata.files]
 aiohttp = []
@@ -501,6 +509,7 @@ markupsafe = []
 multidict = []
 numpy = []
 packaging = []
+pandas2 = []
 parso = []
 pluggy = []
 pyflakes = []
